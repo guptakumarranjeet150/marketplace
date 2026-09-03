@@ -7,9 +7,7 @@ node_modules/
 out/
 
 # Environment files — NEVER commit secrets
-.env.local
 .env.*.local
-.env
 scripts/deploy/.env.deploy
 .stellar/
 scripts/deploy/.stellar/
@@ -19,7 +17,6 @@ scripts/deploy/.stellar/
 Thumbs.db
 
 # IDE
-.vscode/
 .idea/
 
 # WASM / build outputs
@@ -41,3 +38,4 @@ mimo_*.log
 
 issue.md
 pr.md
+config.bat
